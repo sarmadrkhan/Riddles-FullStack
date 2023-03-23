@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+.lost-page{
+  background-image: url("./assets/jpg/lost.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center
+}
+.lost-text{
+  font-family: cursive;
+  color: beige;
+  margin: 20px 0px 0px 20px;
+}
+/* Styles related to NavBar */
+.navbar-padding {
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 10px;
+  
+}
+.below-nav {
+  padding-top: 60px;
+}
+.app-title-text{
+  margin-left: 15px;
+}
+.app-title-link{
+  text-decoration: none;
+}
+.login-form{
+  background-image: url("./assets/jpg/login.jpg");
+  position: fixed;
+  background-size: cover ;
+  background-position: center
+}
+.email-form-label{
+  color: white;
+}
+.password-form-label{
+  color: white;
+}
+.login-title{
+  color: white;
+}
+#left-sidebar{
+  background-color: #557a95;
+}
+.left-sidebar-list{
+  margin-top: 20px;
+}
+.list-group-item{
+  background-color: rgb(17, 17, 74);
+  color: white;
+  border-color: white;
+  text-decoration: none;
+}
+.list-group-item:hover{
+  background-color: white;
+  color:rgb(17, 17, 74);
+  cursor: pointer;
+}
+.add-riddle-btn{
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 8px 16px;
+  margin: 0px 24px 24px 0px;
+  background-color: #2a5c7f;
+}
+.rep-submit-btn{
+  background-color: green;
+  border-radius: 10px 10px 10px 10px;
+  font-size: small;
+}
+.rep-submit-btn:hover{
+  cursor: pointer;
+}
+.rdl-closed{
+  background-color: coral !important;
+}
+.rdl-open{
+  background-color:yellowgreen !important;
+}
+.rdl-answered{
+  background-color: darkcyan !important;
+  color: azure !important;
+}
+.pos1{
+  background-color: gold !important;
+}
+.pos2{
+  background-color: silver !important;
+}
+.pos3{
+  background-color: #CD7F32 !important;
+}
